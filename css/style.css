@@ -29,6 +29,14 @@ a{
 #contact{
 	background: #9cbdbf;	
 }
+.separador{
+	height: 10px;
+	border-top: 10px solid white;
+	border-bottom: 5px solid white;
+	background: #9cbdbf;
+	width: 100%;
+
+}
 article{
 	margin: 0 auto ;
 	max-width: 1024px;
@@ -59,6 +67,7 @@ header section aside{
 header section aside .social{
 	height: 50px;
 	width: 100%;
+	text-align: right;
 }
 header section aside nav{
 	height: 50px;
