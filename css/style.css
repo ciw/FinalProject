@@ -106,5 +106,26 @@ header section aside h2{
 header section aside h2 strong{
 	font-weight: bold;
 }
-
+#home .slide{
+	width:70%;
+	background: red;
+	height: 450px;
+	display: inline-block;
+}
+#home aside{
+	width:30%;
+	background: blue;
+	height: 450px;
+	display: inline-block;
+}
+#contact form{
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+#contact aside{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+}
 
