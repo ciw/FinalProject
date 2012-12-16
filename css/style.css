@@ -16,6 +16,7 @@ a{
 #home, #about, #gallery, #contact{
 	min-height: 500px;
 	width: 100%;
+	padding: 30px 0;
 }
 #home{
 	background: #9dbdbe;
@@ -68,6 +69,7 @@ header section aside .social{
 	height: 50px;
 	width: 100%;
 	text-align: right;
+	margin-top: 20px;
 }
 header section aside nav{
 	height: 50px;
@@ -78,14 +80,15 @@ header section aside nav li{
 }
 header section aside nav li a{
 	background:white;
-	font-size: 1.2em;
+	font-size: 1em;
 	border-radius: 5px;
 	box-shadow: 0px 1px 5px rgba(39,40,34,.3);
 	color: #5d9191;
 	display: block;
-	margin-left: 30px;
+	margin-left: 24px;
 	padding:10px 40px 10px 40px;
 	text-shadow: 0 1px 0px rgba(58,105,105,.5);
+	text-transform: uppercase;
 }
 header section aside nav li a:hover{
 	background:rgb(93,145,145);
@@ -108,23 +111,69 @@ header section aside h2 strong{
 }
 #home .slide{
 	width:70%;
-	background: red;
 	height: 450px;
 	display: inline-block;
 }
+#home .slide img{
+	border:7px solid white;
+	box-shadow: 0 4px 5px #909090; 
+}
 #home aside{
 	width:30%;
-	background: blue;
 	height: 450px;
 	display: inline-block;
+}
+#gallery img{
+	width: 32%;
+	height: 250px;
+	border: 5px solid white;
 }
 #contact form{
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
 }
+#contact form label{
+	display: block;
+	color: #fff;
+	font-size: 1.3em;
+}
+#contact form input, #contact form textarea{
+	height: 2em;
+	width: 80%;
+	font-size: 1em;
+	line-height: 1.625em;
+	border: none;
+	margin: 0 0 0.8125em 0;
+	padding: 0 3%;
+	box-shadow: 0 1px 5px #909090;
+}
+#contact form textarea{
+	height: 10em;
+}
+#enviar{
+	background-color:#07817D;
+	color: #fff;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
 #contact aside{
 	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+}
+#contactanos{
+	width: 50%;
+	height: 350px;
+	background: blue;
+	display: inline-block;
+	vertical-align: top;
+}
+#gmaps{
+	width: 50%;
+	height: 350px;
+	background: red;
 	display: inline-block;
 	vertical-align: top;
 }
