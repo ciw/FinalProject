@@ -1,3 +1,4 @@
+@font-face { font-family: Exo; src: url('../fonts/Exo-Black.otf'); } 
 *{
 	margin: 0;
 }
@@ -14,7 +15,6 @@ a{
 	text-decoration: none;
 }
 #home, #about, #gallery, #contact{
-	min-height: 500px;
 	width: 100%;
 	padding: 30px 0;
 }
@@ -36,7 +36,6 @@ a{
 	border-bottom: 5px solid white;
 	background: #9cbdbf;
 	width: 100%;
-
 }
 article{
 	margin: 0 auto ;
@@ -55,10 +54,6 @@ header section hgroup{
 	display: inline-block;
 	vertical-align: top;
 	width: 30%;
-}
-header section hgroup h1 img{
-	height: 100px;
-	width:100%;
 }
 header section aside{
 	display: inline-block;
@@ -110,18 +105,31 @@ header section aside h2 strong{
 	font-weight: bold;
 }
 #home .slide{
-	width:70%;
-	height: 450px;
+	width:75%;
 	display: inline-block;
+	vertical-align: top;
 }
 #home .slide img{
 	border:7px solid white;
 	box-shadow: 0 4px 5px #909090; 
+	margin-left: 50px;
 }
 #home aside{
-	width:30%;
-	height: 450px;
+	width:23%;
+	margin-left: 20px;
 	display: inline-block;
+}
+#about article h2{
+	color: #65858a;
+	font-size: 3.5em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#about article h3{
+	color: #65858a;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 #gallery img{
 	width: 32%;
@@ -166,14 +174,18 @@ header section aside h2 strong{
 #contactanos{
 	width: 50%;
 	height: 350px;
-	background: blue;
 	display: inline-block;
 	vertical-align: top;
+	color: #65858a;
+	font-size: 1.2em;
+}
+#contactanos h2{
+	font-weight: bold;
+	font-size: 2em;
 }
 #gmaps{
 	width: 50%;
 	height: 350px;
-	background: red;
 	display: inline-block;
 	vertical-align: top;
 }
